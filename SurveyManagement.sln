@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyManagement.API", "SurveyManagement.API\SurveyManagement.API.csproj", "{4BD5A686-2F07-485E-80D9-B7209478DED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyManagement.Application", "SurveyManagement.Application\SurveyManagement.Application.csproj", "{0689C8D6-D816-452F-8C3A-FF6969535B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyManagement.Domain", "SurveyManagement.Domain\SurveyManagement.Domain.csproj", "{88BC9F4D-A701-47B7-8C43-55850CF0317C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyManagement.Infrastructure", "SurveyManagement.Infrastructure\SurveyManagement.Infrastructure.csproj", "{6FF752D9-F915-4CF4-9BDC-BFF992C46A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyManagement.Shared", "SurveyManagement.Shared\SurveyManagement.Shared.csproj", "{D464AF5D-D4A8-400F-AC24-205A6D4728DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyManagement.Tests", "SurveyManagement.Tests\SurveyManagement.Tests.csproj", "{78FE492A-ADDA-4202-976A-A22397699C13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BD5A686-2F07-485E-80D9-B7209478DED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD5A686-2F07-485E-80D9-B7209478DED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD5A686-2F07-485E-80D9-B7209478DED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD5A686-2F07-485E-80D9-B7209478DED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0689C8D6-D816-452F-8C3A-FF6969535B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0689C8D6-D816-452F-8C3A-FF6969535B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0689C8D6-D816-452F-8C3A-FF6969535B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0689C8D6-D816-452F-8C3A-FF6969535B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BC9F4D-A701-47B7-8C43-55850CF0317C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BC9F4D-A701-47B7-8C43-55850CF0317C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BC9F4D-A701-47B7-8C43-55850CF0317C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BC9F4D-A701-47B7-8C43-55850CF0317C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF752D9-F915-4CF4-9BDC-BFF992C46A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF752D9-F915-4CF4-9BDC-BFF992C46A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF752D9-F915-4CF4-9BDC-BFF992C46A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF752D9-F915-4CF4-9BDC-BFF992C46A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D464AF5D-D4A8-400F-AC24-205A6D4728DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D464AF5D-D4A8-400F-AC24-205A6D4728DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D464AF5D-D4A8-400F-AC24-205A6D4728DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D464AF5D-D4A8-400F-AC24-205A6D4728DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FE492A-ADDA-4202-976A-A22397699C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FE492A-ADDA-4202-976A-A22397699C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FE492A-ADDA-4202-976A-A22397699C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FE492A-ADDA-4202-976A-A22397699C13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {391E0613-3C8A-4BC7-B55A-D00E724B7419}
+	EndGlobalSection
+EndGlobal
